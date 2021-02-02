@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7243935562757724684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6575110659078104763}
+  - component: {fileID: 29848606896758557}
+  m_Layer: 0
+  m_Name: FireWatch
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6575110659078104763
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7243935562757724684}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &29848606896758557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7243935562757724684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e251ec46fe973e40892fcb53a1dffd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: "\uD30C\uC774\uC5B4\uC6CC\uCE58"
+  CharacterImage: {fileID: 21300000, guid: a48e4d116ca0bf04f92e52fd9895308e, type: 3}
+  nameText: "\uD30C\uC774\uC5B4\uC6CC\uCE58"
+  levelText: 1
+  skillIconImage: {fileID: 21300000, guid: 6fd1e729d9e5be74ba435a156b38a9db, type: 3}
+  exp: 0
+  expImage: {fileID: 21300000, guid: bd3a2ef101435044f95fff23e93caf20, type: 3}
+  starImage: {fileID: 21300000, guid: 8cc34af806abc774daffec412a227a74, type: 3}
+  starNumber: 4
+  starColorGradiantImage: {fileID: 0}
+  classImage: {fileID: 21300000, guid: 39c6362514b8f384c861dc9899d815cb, type: 3}
+  eliteImage: {fileID: 21300000, guid: 3ef16fbedcd53d2429b8ec57a52e4f99, type: 3}
+  potenialImage: {fileID: 21300000, guid: 453702a7976105a43a3d9a1fdca26072, type: 3}

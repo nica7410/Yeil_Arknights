@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &302996694932225533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4738924864065839352}
+  - component: {fileID: -7062994022659689026}
+  m_Layer: 0
+  m_Name: Siege
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4738924864065839352
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302996694932225533}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 31.504313, y: -43.238922, z: -82.354095}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-7062994022659689026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302996694932225533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1131118e88c1be448ece7d92f1b7a66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameNumber: 14
+  attack: 228
+  attackTime: 1.9
+  defence: 53
+  resistance: 15
+  maxHp: 629
+  nowHp: 629
+  position: 0
+  uVClip:
+  - rowCnt: 5
+    totalCnt: 60
+    curFrame: 0
+    texAnim: {fileID: 2800000, guid: 267eced1d6620294c8e061a9b28f946a, type: 3}
+  - rowCnt: 5
+    totalCnt: 90
+    curFrame: 0
+    texAnim: {fileID: 2800000, guid: 344b7ba2cba1d4b48863168044ad38c8, type: 3}
+  krName: "\uC2DC\uC988"
+  egName: Siege
+  lv: 1
+  classImage: {fileID: 21300000, guid: ee33d022aca4d4b468affea7ea405134, type: 3}
+  cardImage: {fileID: 21300000, guid: 923f40c4f96076044b43076e7ad2dfb9, type: 3}
+  fullImageSprite: {fileID: 21300000, guid: 62f6e51ba7fa92340a947595487d1e16, type: 3}
+  fullImage: {fileID: 2800000, guid: 62f6e51ba7fa92340a947595487d1e16, type: 3}
+  iconImage: {fileID: 21300000, guid: f96a669a018f7b4428a0dc2341f4f2a2, type: 3}
+  exp: 0
+  block: 1
+  cost: 17
+  reDeployTime: 0
+  range: []
+  rangePrefap: {fileID: 3254325612606755868, guid: c7ac14fd66ca9c74ebf571bd943ee4fb,
+    type: 3}
+  traits: 
+  skillInfo: {fileID: 0}
+  talentsTitle: 

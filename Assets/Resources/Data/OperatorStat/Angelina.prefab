@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &302996694932225533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4738924864065839352}
+  - component: {fileID: -7062994022659689026}
+  m_Layer: 0
+  m_Name: Angelina
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4738924864065839352
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302996694932225533}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 31.504313, y: -43.238922, z: -82.354095}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-7062994022659689026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302996694932225533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1131118e88c1be448ece7d92f1b7a66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameNumber: 16
+  attack: 228
+  attackTime: 1.9
+  defence: 53
+  resistance: 15
+  maxHp: 629
+  nowHp: 629
+  position: 0
+  uVClip:
+  - rowCnt: 5
+    totalCnt: 57
+    curFrame: 0
+    texAnim: {fileID: 2800000, guid: 06fb432b175aefb4d965e7f9e259548d, type: 3}
+  - rowCnt: 5
+    totalCnt: 80
+    curFrame: 0
+    texAnim: {fileID: 2800000, guid: 2c13b1f713bf37e48bd181e6888e8b70, type: 3}
+  krName: "\uC548\uC824\uB9AC\uB098"
+  egName: Angelina
+  lv: 1
+  classImage: {fileID: 21300000, guid: b9a7f02b2138aac449443ea0a2a0f659, type: 3}
+  cardImage: {fileID: 21300000, guid: 1997e39a430bedf4f9084f469ad37b71, type: 3}
+  fullImageSprite: {fileID: 21300000, guid: 064d2cb63abed204a9bf314fad770f09, type: 3}
+  fullImage: {fileID: 2800000, guid: 064d2cb63abed204a9bf314fad770f09, type: 3}
+  iconImage: {fileID: 21300000, guid: c175dd85c41f71c4692a6df9f65339ba, type: 3}
+  exp: 0
+  block: 1
+  cost: 12
+  reDeployTime: 0
+  range: []
+  rangePrefap: {fileID: 6412456031614304722, guid: c1d19b514e6c64e49b8660166666c9fb,
+    type: 3}
+  traits: 
+  skillInfo: {fileID: 0}
+  talentsTitle: 

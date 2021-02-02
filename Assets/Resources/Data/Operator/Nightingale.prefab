@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5248534721584915440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4700341273617816219}
+  - component: {fileID: 6766375452533216816}
+  m_Layer: 0
+  m_Name: Nightingale
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4700341273617816219
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5248534721584915440}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6766375452533216816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5248534721584915440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e251ec46fe973e40892fcb53a1dffd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: "\uB098\uC774\uD305\uAC8C\uC77C"
+  CharacterImage: {fileID: 21300000, guid: 30444cafd5e2c9f4b825e804d86515f1, type: 3}
+  nameText: "\uB098\uC774\uD305\uAC8C\uC77C"
+  levelText: 1
+  skillIconImage: {fileID: 21300000, guid: 4ac2e81263a2a6845bba96dfbc7c8612, type: 3}
+  exp: 0
+  expImage: {fileID: 21300000, guid: bd3a2ef101435044f95fff23e93caf20, type: 3}
+  starImage: {fileID: 21300000, guid: 8cc34af806abc774daffec412a227a74, type: 3}
+  starNumber: 6
+  starColorGradiantImage: {fileID: 0}
+  classImage: {fileID: 21300000, guid: 93ce141eb06824f43a2c6e18e393fa2e, type: 3}
+  eliteImage: {fileID: 21300000, guid: 3ef16fbedcd53d2429b8ec57a52e4f99, type: 3}
+  potenialImage: {fileID: 21300000, guid: 453702a7976105a43a3d9a1fdca26072, type: 3}
